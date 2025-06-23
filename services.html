@@ -6,22 +6,25 @@
     <meta name="description" content="Découvrez nos services de plomberie, rénovation, serrurerie et débouchage. Intervention rapide 24/7 dans plus de 33 villes.">
     <title>Nos Services | Lambert Services</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="brand-title">
-            <a href="index.html">Lambert Services</a>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Lambert Services" class="logo">
+            </a>
         </div>
-        <a href="#" class="toggle-button">
+        <button class="toggle-button" aria-label="Menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-        </a>
+        </button>
         <div class="navbar-links">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="histoire.html">Notre Histoire</a></li>
                 <li><a href="faq-blog.html">FAQ & Blog</a></li>
             </ul>
@@ -29,7 +32,7 @@
     </nav>
 
     <main>
-        <section class="page-hero">
+        <section id="services" class="page-hero">
             <div class="hero-content">
                 <h2>Nos Services</h2>
                 <p>Expert en plomberie, rénovation, serrurerie et débouchage</p>
@@ -130,16 +133,29 @@
             <div class="footer-section">
                 <h3>Lambert Services</h3>
                 <p>Expert en plomberie et rénovation</p>
-                <p>Disponible 24h/24 - 7j/7</p>
+                <p>123 Avenue des Artisans<br>33000 Bordeaux</p>
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>Tél: 07 56 98 67 71</p>
-                <p>Email: contact@lambert-services.fr</p>
+                <p>Tél : 07 56 98 67 71</p>
+                <p>Email : contact@lambert-services.fr</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horaires</h3>
+                <p>Lundi - Vendredi : 8h - 19h</p>
+                <p>Service d'urgence 24/7</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens</h3>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                    <li><a href="conditions-generales.html">CGV</a></li>
+                </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Lambert Services - Tous droits réservés</p>
+            <p>&copy; 2025 Lambert Services. Tous droits réservés.</p>
         </div>
     </footer>
     <script src="js/nav.js"></script>

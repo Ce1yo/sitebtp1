@@ -6,30 +6,33 @@
     <meta name="description" content="Découvrez l'histoire de Lambert Services, expert en plomberie depuis 15 ans. Notre engagement pour la qualité et le service client.">
     <title>Notre Histoire | Lambert Services</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile-menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="brand-title">
-            <a href="index.html">Lambert Services</a>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Lambert Services" class="logo">
+            </a>
         </div>
-        <a href="#" class="toggle-button">
+        <button class="toggle-button" aria-label="Menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-        </a>
+        </button>
         <div class="navbar-links">
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="histoire.html" class="active">Notre Histoire</a></li>
+                <li><a href="histoire.html">Notre Histoire</a></li>
                 <li><a href="faq-blog.html">FAQ & Blog</a></li>
             </ul>
         </div>
     </nav>
 
     <main>
-        <section class="page-hero">
+        <section id="histoire" class="page-hero">
             <div class="hero-content">
                 <h2>Notre Histoire</h2>
                 <p>15 ans d'expertise à votre service</p>
@@ -67,6 +70,32 @@
                             <span class="stat-number" data-suffix="%">100</span>
                             <span class="stat-label">Satisfaction client</span>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2>Nos Valeurs</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <i class="fas fa-star"></i>
+                        <h3>Excellence</h3>
+                        <p>Nous nous engageons à fournir un service de la plus haute qualité pour chaque intervention.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Réactivité</h3>
+                        <p>Disponibles 24h/24 et 7j/7 pour répondre rapidement à vos urgences.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Service Client</h3>
+                        <p>La satisfaction de nos clients est notre priorité absolue.</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Fiabilité</h3>
+                        <p>Des interventions garanties et un suivi personnalisé de chaque chantier.</p>
                     </div>
                 </div>
             </div>
@@ -129,32 +158,6 @@
                     </div>
                 </div>
             </div>
-
-            <div class="values-section">
-                <h2>Nos Valeurs</h2>
-                <div class="values-grid">
-                    <div class="value-card">
-                        <i class="fas fa-star"></i>
-                        <h3>Excellence</h3>
-                        <p>Nous nous engageons à fournir un service de la plus haute qualité pour chaque intervention.</p>
-                    </div>
-                    <div class="value-card">
-                        <i class="fas fa-clock"></i>
-                        <h3>Réactivité</h3>
-                        <p>Disponibles 24h/24 et 7j/7 pour répondre rapidement à vos urgences.</p>
-                    </div>
-                    <div class="value-card">
-                        <i class="fas fa-heart"></i>
-                        <h3>Service Client</h3>
-                        <p>La satisfaction de nos clients est notre priorité absolue.</p>
-                    </div>
-                    <div class="value-card">
-                        <i class="fas fa-shield-alt"></i>
-                        <h3>Fiabilité</h3>
-                        <p>Des interventions garanties et un suivi personnalisé de chaque chantier.</p>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <section class="cta-section">
@@ -185,16 +188,29 @@
             <div class="footer-section">
                 <h3>Lambert Services</h3>
                 <p>Expert en plomberie et rénovation</p>
-                <p>Disponible 24h/24 - 7j/7</p>
+                <p>123 Avenue des Artisans<br>33000 Bordeaux</p>
             </div>
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>Tél: 07 56 98 67 71</p>
-                <p>Email: contact@lambert-services.fr</p>
+                <p>Tél : 07 56 98 67 71</p>
+                <p>Email : contact@lambert-services.fr</p>
+            </div>
+            <div class="footer-section">
+                <h3>Horaires</h3>
+                <p>Lundi - Vendredi : 8h - 19h</p>
+                <p>Service d'urgence 24/7</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens</h3>
+                <ul>
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+                    <li><a href="conditions-generales.html">CGV</a></li>
+                </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 Lambert Services - Tous droits réservés</p>
+            <p>&copy; 2025 Lambert Services. Tous droits réservés.</p>
         </div>
     </footer>
 
