@@ -386,10 +386,11 @@ body {
 
 /* CTA Section */
 .cta-section {
-    padding: 6rem 2rem;
+    padding: 4rem 2rem;
     background: linear-gradient(135deg, var(--primary-color), #2c5ae9);
     color: white;
     margin-top: 4rem;
+    text-align: center;
 }
 
 .cta-content {
@@ -1596,6 +1597,16 @@ body {
     list-style: none;
 }
 
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer-section a:hover {
+    opacity: 0.8;
+}
+
 .footer-bottom {
     text-align: center;
     margin-top: 2rem;
@@ -1631,6 +1642,43 @@ body {
     .trust-badges {
         flex-direction: column;
         gap: 2rem;
+    }
+
+    .cta-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .cta-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .cta-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2.5rem;
+    }
+
+    .footer-section ul {
+        padding: 0;
+    }
+
+    .footer-section li {
+        margin-bottom: 1rem;
     }
 }
 
