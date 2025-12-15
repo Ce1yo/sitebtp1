@@ -1,6 +1,6 @@
-# Lambert Services - Site Web
+# LS COMPAGNON - Site Web
 
-Site web professionnel pour Lambert Services, entreprise de plomberie et rénovation.
+Site web professionnel pour LS COMPAGNON, entreprise de plomberie, électricité et rénovation.
 
 ## Caractéristiques
 
